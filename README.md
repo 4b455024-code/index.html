@@ -1,4 +1,3 @@
-# index.html
 <!DOCTYPE html>
 <html>
  <head>
@@ -18,17 +17,18 @@
     </style>
   </style>
  </head>
+ <body onload="javascript: alert('蔣承祐 4B455024');">
  <body>
   <header>
-   <h1><p>&ensp;</p><p> Hello, World!!</h1>
+   <h1><p>&ensp;</p><p>頁首:Hello, World!!</h1>
    <h4>    好網業</h4>
    <p>&ensp;</p>
  </header>
- <nav>      <h1>首頁、關於我、作品集、資料、收藏</h1>
+ <nav>      <h1><i class="fa fa-server" aria-hidden="true"></i>導覽列、<i class="fa fa-newspaper-o" aria-hidden="true"></i>關於我、<i class="fa fa-thumbs-up" aria-hidden="true"></i>作品集、<i class="fa fa-file" aria-hidden="true"></i>資料、<i class="fa fa-file-text-o" aria-hidden="true"></i>收藏</h1>
 
  </nav>
  <aside> 
- <h1>側邊欄</h1>
+ <h1>左側邊欄</h1>
  </aside>
  <main>  <h1><i class="fa fa-address-card-o" aria-hidden="true"></i>主要資料</h1>
    <p><i class="fa fa-balance-scale" aria-hidden="true"></i>班級:電商二甲</p>
@@ -41,7 +41,7 @@
  </main>
  <footer>
   <footer>
-   <p>&copy; 2026 南台公司</p>
+   <p>頁尾&copy; 2026 南台公司</p>
    <p><a href="#">Back to top</a></p>
  </footer>
 </body>
